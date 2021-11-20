@@ -3,9 +3,14 @@
 <!DOCTYPE html>
 
 <html lang="ja">
+
     <head>
         <meta charset="UTF-8">
+
         <title>メッセージボード</title>
+        <link rel="stylesheet" href="<c:url value='/css/reset.css' />">
+        <link rel="stylesheet" href="<c:url value='/css/style.css' />">
+
     </head>
     <body>
            <div id="wrapper">
@@ -13,7 +18,7 @@
                 <h1>メッセージボードアプリケーション </h1>
            </div>
            <div id="content">
-           ${param.content}
+             ${param.content}
            </div>
            <div id="footer">
                 by Taro Kirameki.
