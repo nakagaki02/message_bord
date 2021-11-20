@@ -6,7 +6,7 @@
     <c:param name="content">
      <h2>メッセージ一覧</h2>
      <ul>
-       <c:forEach var="message" items="${messagees}">
+       <c:forEach var="message" items="${messages}">
          <li>
 
          <a href="${pageContext.request.contextPath}/show?id=${message.id}">
